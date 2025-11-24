@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(17, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+.weather-card{
+    height: 60vh;
+    width: 100%;
+    max-width: 400px;
+    border: 4px solid rgb(5, 113, 149);
+    border-radius: 5%;
+    background: linear-gradient(
+    135deg, 
+    #E0FFFF,   
+    #A0E7FF,   
+    #A0FFB0,   
+    #FFF9A0    
+  );
+}
+
+input{
+    padding:6px;
+    width: 70%;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top:30px;
+    border-radius: 20px;
+    border: 3px solid rgb(5, 113, 149);
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(5, 113, 149);
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: rgb(112, 111, 110);
+}
+
+ img{
+    width: 25%;
+    padding-left: 140px;
+    padding-top: 40px; 
+} 
+
+.temperature {
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 140px;
+    padding-top: 10px;
+}
+
+.city {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.details div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.details i {
+    font-size: 18px;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="weather-card">
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getWeather()"><i class="fa fa-search"></i></button>
+        </div>
+        
+        <div class="weather-info">
+            <div class="weather-icon" id="icon"><img src=https://cdn-icons-png.flaticon.com/512/3845/3845731.png></div>
+            <div class="temperature" id="temp">--°C</div>
+            <div class="city" id="cityName">City</div>
+            <div class="details">
+                <div><i class="fa fa-water"></i>
+                <span id="humidity">--%</span> Humidity</div>
+                <div><i class="fa fa-wind"></i> <span id="wind">-- km/h</span> Wind Speed</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
